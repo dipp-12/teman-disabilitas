@@ -8,7 +8,7 @@ from keras.models import Sequential
 from keras.layers import Dense, Flatten, Conv2D, MaxPooling2D
 
 model = Sequential()
-model.add(Conv2D(8, (3,3), input_shape=(90,45,3), activation='relu'))
+model.add(Conv2D(8, (3,3), input_shape=(100,100,3), activation='relu'))
 model.add(MaxPooling2D(2,2))
 model.add(Conv2D(16,(3,3),activation='relu'))
 model.add(MaxPooling2D(2,2))
@@ -100,7 +100,7 @@ while True:
         y1 = cy-h - 10 - text_size[1]
         #print(type(x1))
   
-    smile = cv2.resize(object_image, (45,90))/255
+    smile = cv2.resize(object_image, (100,100))/255
 
     y_pred = model.predict(np.asarray([smile]))
     y_pred = np.argmax(y_pred, axis=1)
