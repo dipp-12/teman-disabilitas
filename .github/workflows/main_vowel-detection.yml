@@ -67,6 +67,3 @@ jobs:
           app-name: 'vowel-detection'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_58C6B6719E894FB7BC9CC5B8B12DF8DB }}
-
-      - name: 'Start Flask app'
-        run: python app.py
