@@ -29,11 +29,6 @@ jobs:
       
       - name: Install dependencies
         run: pip install -r requirements.txt
-
-      - name: Setup Flask environtment
-        run: |
-          $Env:FLASK_APP="app:app"
-          $Env:FLASK_ENV="development"
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
