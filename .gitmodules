@@ -1,0 +1,6 @@
+[submodule "vowel-detection-server"]
+	path = vowel-detection-server
+	url = https://github.com/dipp-12/vowel-detection-server.git
+[submodule "vowel-detection-client"]
+	path = vowel-detection-client
+	url = https://github.com/dipp-12/vowel-detection-client.git
