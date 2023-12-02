@@ -21,8 +21,8 @@ Haarcascade and librosa here are used for preprocessing. Haarcascade is used to 
 
 ### 1. Clone Project
 ```
-git clone https://github.com/dipp-12/....
-cd ....
+git clone https://github.com/dipp-12/teman-disabilitas
+cd teman-disabilitas
 ```
 
 ### 2. Install virtual environment (optional)
@@ -57,5 +57,5 @@ flask run
 
 ### Web App
 
-Here's also web version for the flask app but still limited for image recognition. https://dipp-12.github.io/vowel-detection-client/
+Here's also web version for the flask app but still limited for image recognition. https://dipp-12.github.io/teman-disabilitas/
 ![image](https://github.com/dipp-12/teman-disabilitas/assets/75561122/a9b660c0-1ac8-4a7c-8e1f-0371ad3e18a8)
